@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sunrise Sunset Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sunrise Sunset Dashboard</h1>
+      <input type="text" id="locationInput" placeholder="Enter location" />
+      <button id="searchButton">Search</button>
+      <button id="geolocationButton">Use Geolocation</button>
+    </header>
+
+    <main>
+      <div class="card">
+        <h2>Today</h2>
+        <h3 id="todayDate"></h3>
+        <div class="info-section" id="todayInfo">
+          <!-- Content for Today section -->
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Tomorrow</h2>
+        <h3 id="tomorrowDate"></h3>
+        <div class="info-section" id="tomorrowInfo">
+          <!-- Content for Tomorrow section -->
+        </div>
+      </div>
+
+      <div id="errorMessage" class="hidden"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

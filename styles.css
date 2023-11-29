@@ -1,0 +1,63 @@
+/* Add your updated styles for layout and design here */
+/* Example: */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 800px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.info-section div {
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.info-section p {
+  padding: 0px;
+  margin: 0px 0px 5px;
+}
+
+.info-section div img {
+  width: 80px; /* Adjust size as needed */
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
